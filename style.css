@@ -1,0 +1,756 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Roboto:ital,wght@0,500;1,100&family=Syne+Tactile&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  user-select: none;
+}
+.admin-dashboard {
+  display: flex;
+}
+.admin-dash-side-menu {
+  height: 150vh;
+  width: 15vw;
+  background-color: #06163a;
+}
+.admin-dash-render-data {
+  height: 150vh;
+  width: 85vw;
+  background-color: #edf5f8;
+}
+.logo-div {
+  display: flex;
+  margin-left: 1.4rem;
+  margin-top: 0.8rem;
+}
+.logo-img {
+  height: 40px;
+}
+.logo-heading {
+  color: #fff;
+  margin-left: 0.4rem;
+}
+.link-flex{
+    display: flex;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.link-logo i{
+    color: #edf5f8;
+    margin-left: 1.7rem;
+}
+.link-text p{
+    color: #edf5f8;
+    margin-left: 1rem;
+}
+.navbar{
+    height: 9vh;
+    background-color: #fff;
+}
+.nav-maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+.left-div{
+    margin-left: 1.8rem;
+    margin-top: 1.3rem;
+}
+.left-div i{
+    font-size: 20px;
+    color: #acaeae;
+}
+.right-div{
+    margin-right: 1.8rem;
+    margin-top: 1.3rem;
+    position: relative;
+}
+.right-div i{
+    margin-left: .4rem;
+    font-size: 17px;
+}
+.notify-sup{
+    position: absolute;
+    top: -8%;
+    left: 15%;
+    background-color: #01a5f2;
+    padding: .1rem .3rem;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 8px;
+}
+.email-sup{
+    position: absolute;
+    top: -10%;
+    left: 45%;
+    background-color: #f85477;
+    padding: .1rem .3rem;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 8px;
+}
+.user{
+    color: black;
+}
+.render-ghraph-data{
+    height: 46vh;
+}
+.render-ghraph-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstBox-div{
+  height: 54vh;
+  width: 55vw;
+  background-color: #fff;
+  margin-top: 6rem;
+  border-radius: 2px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.secondBox-div{
+    height:54vh;
+    width: 25vw;
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-top: 6rem;
+    border-radius: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.secondBox-div p{
+    margin-left: 1rem;
+    font-size: 14px;
+    margin-top: .5rem;
+    font-weight: bold;
+    color: #06163a;
+}
+.circle-div{
+    display: flex;
+    justify-content: center;
+}
+.circle-div img{
+    height: 280px;
+}
+.three-number{
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+}
+.firstnum span{
+    font-size: 12px;
+    margin-left: .2rem;
+    color: #acaeae;
+}
+.firstnum h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1.5rem;
+}
+
+.secondnum span{
+    font-size: 12px;
+    color: #acaeae;
+    margin-left: .2rem;
+}
+.secondnum h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+
+.thirdnum span{
+    font-size: 12px;
+    margin-left: .2rem;
+    color: #acaeae;
+}
+.thirdnum h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.c{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:#1a9efe;
+    margin-top: .28rem;
+    margin-left: 1.5rem;
+}
+.ffc{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ff5e13;
+    margin-top: .28rem;
+    margin-left: 1.5rem;
+}
+.tc{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ffc700;
+    margin-top: .28rem;
+    margin-left: 1.5rem;
+}
+.div{
+    display: flex;
+}
+.fc{
+    display: flex;
+}
+.thc{
+    display: flex;
+}
+.flex-three-div{
+    display: flex;
+    justify-content: space-between;
+}
+.first-header-div{
+    margin-left: .6rem;
+    margin-top: .2rem;
+}
+.dash-h{
+    font-size: 14px;
+}
+.overview-latest{
+    font-size: 12px;
+    color: #919399;
+}
+.seond-header-div {
+    margin-top: .2rem;
+}
+.seond-header-div a{
+   text-decoration: none;
+   font-size: 14px;
+   margin-left: 1.2rem;
+}
+.daily{
+    color: black;
+    font-weight: bold;
+    padding-bottom: .5rem;
+    border-bottom: 3px solid #fe5e15;
+}
+.all-c{
+    color: #919399;
+}
+.third-header-div{
+    display: flex;
+    margin-top: .2rem;
+    margin: .4rem;
+}
+.first-store{
+    display: flex;
+}
+.first-online{
+    display: flex;
+}
+.color-c-1{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:#1a9efe;
+    margin-top: .35rem;
+    margin-left: 1.5rem;
+}
+.color-c-2{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:#fe5e15;
+    margin-top: .35rem;
+    margin-left: 1.5rem;
+}
+.first-online p{
+    font-size: 14px;
+    margin-left: .2rem;
+    color: #919399;
+}
+.first-store p{
+    font-size: 14px;
+    margin-left: .2rem;
+    color: #919399;
+}
+.render-graphDIV{
+    display: flex;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: .1px solid rgb(200, 192, 192);
+}
+.secondGRAPH_div{
+    width: 100%;
+    position: relative;
+
+}
+.tt-earnings{
+    margin-left: .6rem;
+    margin-top: 1rem;
+    width: 150px;
+}
+.tt-earnings p{
+font-size: 10px;
+color: #919399;
+}
+.secondGRAPH_div table{
+    margin-left: .5rem;
+}
+.current-month-sales{
+    margin-left: .6rem;
+    margin-top: 1.2rem;
+}
+.current-month-sales p{
+    font-size: 10px;
+    color: #919399; 
+}
+.btnDiv{
+    margin-top: 1.2rem;
+    margin-left: .6rem;
+}
+.btnDiv button{
+    padding: .8rem;
+    border: none;
+    outline: none;
+    background-color: #fe5e15;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+}
+table{
+    margin-top: .5rem;
+}
+.tableColor{
+    border: 1px solid rgb(229, 221, 221);
+}
+.image-graph-div{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+}
+.image-graph-div img{
+    height: 136.5px;
+}
+.countingDiv{
+    margin-left: 8rem;
+    margin-top: .2rem;
+}
+.countingDiv p{
+    font-size: 12px;
+    color: #919399;
+    margin-bottom: .45rem;
+}
+.lastCOuntingDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lastCOuntingDiv p{
+    font-size: 14px;
+    color: #919399;
+}
+.firstCount-q{
+    margin-left: .5rem;
+}
+.lastElement{
+    margin-right: .9rem;
+}
+.iconsand-info-div{
+    display: flex;
+    justify-content: space-between;
+}
+.FirsticonsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #f33923;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecondiconsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #6075db;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ThirdIconsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #48a13a;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ForthiconsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #fd7397;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ForthiconsCricle i , .ThirdIconsCricle i , .SecondiconsCricle i , .FirsticonsCricle i {
+    color: #fff;
+}
+.first-icon-div{
+    display: flex;
+    margin-left: .8rem;
+}
+.second-icon-div{
+    display: flex;
+}
+.Third-cion_div{
+    display: flex;
+}
+.fourth-icon-div{
+    display: flex;
+    margin-right: .8rem;
+}
+.eastimate{
+  font-size: 14px;
+  color: #919399;
+}
+.refrel{
+    font-size: 14px;
+  color: #919399;
+}
+.walt{
+    font-size: 14px;
+  color: #919399;
+}
+.earn{
+    font-size: 14px;
+  color: #919399;
+}
+.boldearn{
+    font-weight: bold;
+}
+.firstTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+.secondTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+.thirdTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+.fourthTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+.cardOne{
+    height: 160px;
+    width: 290px;
+    background-color: #c0dbef;
+    position: relative;
+    border-radius: 4px;
+}
+.first-cardInfoBox_DV{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+.second-cardInfoBox_DV{
+    position: absolute;
+    top: 24%;
+    left: 8%;
+}
+.third-cardInfoBox_DV{
+    position: absolute;
+    top: 24%;
+    left: 8%;
+}
+.fourth-cardInfoBox_DV{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+.cardTwo img{
+    height: 68px;
+    position: absolute;
+    bottom: 0%;
+}
+.cardThree img{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+}
+.cardThree button{
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  background-color: #fff;
+  color: black;
+  border: none;
+  outline: none;
+  font-family: "Poppins";
+  font-size: 12px;
+  padding: .3rem .6rem;
+  border-radius: 4px;
+}
+
+.first-cardInfoBox_DV h2{
+    color: #1f9fff;
+}
+.second-cardInfoBox_DV h2{
+    color: #ffc401;
+}
+.third-cardInfoBox_DV h2{
+    color: #ff6421;
+}
+.fourth-cardInfoBox_DV h2{
+    color: #9515ff;
+}
+.first-cardInfoBox_DV span{
+    font-size: 13px;
+}
+.second-cardInfoBox_DV span{
+    font-size: 13px;
+}
+.third-cardInfoBox_DV span{
+    font-size: 13px;
+}
+.fourth-cardInfoBox_DV span{
+    font-size: 13px;
+}
+.cardOne p , .cardFour p , .cardThree p , .cardTwo p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+}
+.cardTwo{
+    height: 160px;
+    width: 290px;
+    background-color: #ebe0b4;
+    position: relative;
+    border-radius: 4px;
+}
+.cardThree{
+    height: 160px;
+    width: 290px;
+    background-color: #efc7b3;
+    border-radius: 4px;
+    position: relative;
+}
+.cardFour{
+    height: 160px;
+    width: 290px;
+    border-radius: 4px;
+    background-color: #d7b0f4;
+    position: relative;
+}
+.multpleCards_div{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.main-cards_DIV{
+    display: flex;
+    justify-content: center;
+}
+.firstLastD{
+    height: 50vh;
+    width: 30vw;
+    background-color: #fff;
+}
+.mainlasttwoDivs{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.secondLastD{
+    height: 50vh;
+    width: 70vw;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-left: 1rem;
+}
+.lastTwoD{
+    display: flex;
+    width: 95%;
+    margin-top: 2rem;
+}
+.recent-activ{
+    font-weight: bold;
+   font-size: 13px;
+   margin-left: 1.6rem;
+   margin-top: .6rem;
+}
+.style-boxOne{
+    height: 50px;
+    width: 50px;
+    background-color: #6075db;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.style-boxTwo{
+    height: 50px;
+    width: 50px;
+    background-color: #667ade;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.style-boxThree{
+    height: 50px;
+    width: 50px;
+    background-color: #fe7498;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.style-boxFour{
+    height: 50px;
+    width: 50px;
+    background-color: #fec601;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.style-boxFive{
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    background-color: #45a138;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourthtask-innerDiv , .fifthtask-innerDiv , .thirdtask-innerDiv , .secondtask-innerDiv , .firsttask-innerDiv{
+    display: flex;
+    align-items: center;
+}
+.fifth-task , .fourth-task , .third-task , .second-task , .first-task{
+    display: flex;
+}
+.minutesAgo{
+    font-size: 10px;
+    color: #919399;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: -.5rem;
+}
+.fourthtask-innerDiv p, .fifthtask-innerDiv p, .thirdtask-innerDiv p, .secondtask-innerDiv p, .firsttask-innerDiv p{
+   font-weight: bold;
+   font-size: 12px;
+}
+
+.style-boxOne{
+    margin-left: 2.5rem;
+}
+
+.style-boxTwo{
+    margin-left: 4.4rem;
+}
+
+.style-boxThree{
+    margin-left: 2.5rem;
+}
+
+.style-boxFour{
+    margin-left: 4.4rem;
+}
+
+.style-boxFive{
+    margin-left: 4.4rem;
+}
+.firstinnerChildDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.headingtwo p{
+   font-size: 13px;
+   margin-left: 1rem;
+   margin-top: .6rem;
+   font-weight: bold;
+}
+.headingtwo span{
+    font-size: 12px;
+    color: #919399;
+    margin-left: 1rem;
+}
+.ffffff{
+    margin-left: 1rem;
+}
+.sssss{
+    margin-right: 1rem;
+}
+.ffffff button{
+    border: none;
+    outline: none;
+    background-color:#ff6421 ;
+    color: #fff;
+    padding: .4rem .8rem;
+    border-radius: 2px;
+    font-family: "Poppins";
+}
+#mainFirst , #mainSecond , #mainThird , #mainFourth{
+    background-color: #edf5f8;
+    padding: .5rem .8rem;
+}
+.sssss input{
+    border: none;
+    outline: none;
+    background-color: #edf5f8;
+    font-family: "Poppins";
+    padding: .4rem 1rem;
+    border-radius: 2px;
+}
+.inner-innerDiv{
+    background-color: #edf5f8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+   padding-bottom: .5rem;
+   padding-right: .5rem;
+   border-radius: 2px;
+}
+.lastBTnOn{
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    font-family: "Poppins";
+    background-color: #46a138;
+    color: #fff;
+    border-radius: 2px;
+}
+.lasttwoBtnf{
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    font-family: "Poppins";
+    background-color: #f33b26;
+    color: #fff;
+    border-radius: 2px;
+}
